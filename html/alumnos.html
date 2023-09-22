@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> datos del alumno</title>
+</head>
+<body>
+    <fieldset>
+        <legend>datos del alumno</legend>
+    <form>
+        <label for="nombre">nombre:</label>
+        <input type="text"
+         id="nombre"
+         name="nombre"
+         required>
+        <br>
+        <br>
+        <label for="apellido">apellido</label>
+        <input type="text" 
+         id="apellido"
+         name="apellido"
+         required>
+        <br>
+        <br>
+        <label for="dni">dni</label>
+        <input type="text" 
+         id="dni"
+         maxlength="10"
+         name="dni"
+         required>
+         <br>
+         <br>
+         <label for="email">email</label>
+         <input type="email"
+         id="email"
+         name="email"
+         required>
+         <br>
+         <br>
+         <label for="curso">curso</label>
+         <select name="curso"
+          id="curso"
+          required>
+
+            <option>PHP</option>
+
+            <option selected>javascript</option>
+
+            <option>java</option>
+
+            <option>css</option>
+
+         </select>
+         <br>
+         <br>
+
+         <label>turno:</label>
+
+         <br>
+         
+         <label for="manana">mañana</label>
+         <input type="radio" 
+          id="manana"
+          name="turno"
+          value="manana">
+
+         <label for="tarde">tarde</label>
+         <input type="radio" 
+         id="tarde"
+         name="turno"
+         value="tarde">
+
+         <label for="noche">noche</label>
+         <input type="radio" 
+         id="noche"
+         name="turno"
+         value="noche">
+         <br>
+         <br>
+         <button>
+            grabar
+         </button>
+        
+        </fieldset>
+        <a href="tablas.html">volver</a>
+
+        </form>
+</body>
+</html>
